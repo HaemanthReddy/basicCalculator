@@ -1,3 +1,4 @@
 firstNumber=1
 secoundNumber=2
-sum=$(
+sum=$(( $firstNumber + $secoundNumber ))
+echo $sum
